@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#resume">Resume</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="home" class="home">
+      <div class="container">
+        <img src="photo.jpeg" alt="Profile Picture" class="profile-image" />
+        <h2>Welcome to my portfolio</h2>
+      </div>
+    </section>
+
+    <section id="resume" class="section">
+      <div class="container">
+        <h2 class="section-title">Resume</h2>
+        <div class="resume">
+          <embed
+            src="Resume (1) (1).pdf"
+            type="application/pdf"
+            width="100%"
+            height="600px"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <p>
+          An enthusiastic and motivated individual with a curious mind and a
+          passion for continuous learning, I thrive on challenges and am
+          dedicated to personal and professional growth, constantly seeking
+          opportunities to expand my knowledge, broaden my skill set, and make a
+          meaningful impact in the areas that inspire me.
+        </p>
+      </div>
+    </section>
+
+    <section id="skills" class="section">
+      <div class="container">
+        <h2 class="section-title">Skills</h2>
+
+        <div class="skill">
+          <h3>C++/C</h3>
+          <div class="progress-bar">
+            <div class="progress" style="width: 90%"></div>
+          </div>
+        </div>
+
+        <div class="skill">
+          <h3>HTML</h3>
+          <div class="progress-bar">
+            <div class="progress" style="width: 60%"></div>
+          </div>
+        </div>
+
+        <div class="skill">
+          <h3>CSS</h3>
+          <div class="progress-bar">
+            <div class="progress" style="width: 40%"></div>
+          </div>
+        </div>
+
+        <div class="skill">
+          <h3>Javascript</h3>
+          <div class="progress-bar">
+            <div class="progress" style="width: 36%"></div>
+          </div>
+        </div>
+
+        <div class="skill">
+          <h3>React.js</h3>
+          <div class="progress-bar">
+            <div class="progress" style="width: 29%"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="container">
+        <h2 class="section-title">Projects</h2>
+
+        <div class="project">
+          <img src="logo.png" alt="Project 1" />
+          <h3>Project 1</h3>
+          <p>
+            As part of my coursework in web development, I had the opportunity
+            to create the Omnifood project, a fully responsive and visually
+            appealing food delivery website. The project aimed to simulate a
+            real-world food delivery service, offering a seamless user
+            experience from browsing menu options to placing orders.
+          </p>
+
+          <p>
+            The Omnifood project allowed me to strengthen my skills in front-end
+            development, back-end programming, and database management. It also
+            emphasized the importance of user-centric design and effective
+            project planning, as I had to prioritize features and deliver the
+            project within a specified timeline.
+          </p>
+        </div>
+
+        <div class="project">
+          <img src="text.webp" alt="Project 2" />
+          <h3>Project 2</h3>
+          <p>
+            As part of my exploration into front-end development with React, I
+            created Textutils, a web application designed to assist users in
+            manipulating and analyzing text data. With its user-friendly
+            interface and a range of powerful tools, Textutils aims to
+            streamline text processing tasks.
+          </p>
+
+          <p>
+            Textutils offers an array of functionalities, including text case
+            conversion (upper case, lower case), text length calculation, word
+            count, character count (with and without spaces), and the ability to
+            remove extra spaces. Users can conveniently apply these operations
+            to their text with just a few clicks.
+          </p>
+
+          <p>
+            To enhance the user experience, I incorporated features like
+            real-time updates, which instantly reflect changes made by the user,
+            and a responsive layout that adapts to different screen sizes and
+            devices. Additionally, I utilized modern CSS techniques and
+            libraries to create an appealing and intuitive user interface.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="container">
+        <h2 class="section-title">Contact Me</h2>
+        <ul class="contact-list">
+          <li>
+            <a href="mailto:youremail@example.com"
+              ><i class="fa-solid fa-envelope-open-dollar"></i>Email</a
+            >
+          </li>
+          <li>
+            <a href="https://github.com/yourusername"
+              ><i class="fab fa-github"></i>GitHub</a
+            >
+          </li>
+          <li>
+            <a href="https://linkedin.com/in/yourprofile"
+              ><i class="fab fa-linkedin"></i>LinkedIn</a
+            >
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <h2 class="footer__title">Footer</h2>
+        <ul class="footer__social">
+          <li>
+            <a href="#"><i class="fab fa-facebook"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+          </li>
+        </ul>
+        <p class="footer__copy">
+          &copy; 2023 My Portfolio. All rights reserved
+        </p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
